@@ -1,7 +1,7 @@
 title: guitar hero
 originalAuthor: danimalforlife
 description:  |+
-  Fixes the weak and pathetic Kingdom Keyblade and replaces it with the Guitar Hero World Tour controller. 
+  Fixes the weak and pathetic Kingdom Keyblade and replaces it with the Guitar Hero World Tour controller.
 
     Guitar model by MacDrawz on Sketchfab. 
 
@@ -37,7 +37,7 @@ assets:
 ###Kingdom Key Name and Description###
 - name: msg/us/sys.bar
   multi:
-  - name: msg/us/sys.bar
+  - name: msg/uk/sys.bar
   - name: msg/jp/sys.bar
   method: binarc
   source:
