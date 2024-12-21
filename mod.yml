@@ -1,0 +1,57 @@
+title: guitar hero
+originalAuthor: danimalforlife
+description:  |+
+  Fixes the weak and pathetic Kingdom Keyblade and replaces it with the Guitar Hero World Tour controller. 
+
+    Guitar model by MacDrawz on Sketchfab. 
+
+    Thank you to Kite for fixing my model and texture map!
+dependencies: 
+
+
+
+assets:
+###Kingdom Key Object###
+- name: obj/W_EX010.mdlx
+  method: copy
+  source:
+  - name: obj/W_EX010.mdlx
+
+
+###Kingdom Key Texture###
+- name: remastered/obj/W_EX010.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010.mdlx/-0.dds
+
+
+
+###Kingdom Key Item Pic###
+- name: remastered/itempic/item-043.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/itempic/item-043.imd/-0.dds
+
+
+
+###Kingdom Key Name and Description###
+- name: msg/us/sys.bar
+  multi:
+  - name: msg/us/sys.bar
+  - name: msg/jp/sys.bar
+  method: binarc
+  source:
+  - name: sys
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/sys.yml
+      language: en
+
+
+
+###Kingdom Key Sound Effects###
+- name: remastered/obj/W_EX010.a.us/se/obj/se500
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010.a.us/se/obj/se500
