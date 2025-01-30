@@ -1,100 +1,49 @@
-title: The Penetrator
+title: guitar hero
 originalAuthor: danimalforlife
 description:  |+
-    Fixes the Ultima Weapon and replaces it with The Penetrator.
+  Fixes the weak and pathetic Kingdom Keyblade and replaces it with the Guitar Hero World Tour controller.
+
+    Guitar model by MacDrawz on Sketchfab. 
+
+    Thank you to Kite for fixing my model and texture map!
+dependencies: 
+
+
 
 assets:
-###Object###
-#Ultima Weapon
-- name: obj/W_EX010_N0.mdlx
+###Kingdom Key Object###
+- name: obj/W_EX010.mdlx
+  multi:
+  - name: obj/W_EX010_TR.mdlx
+  - name: obj/W_EX010_NM.mdlx
+  - name: obj/W_EX010_WI.mdlx
+  - name: 
   method: copy
   source:
-  - name: obj/W_EX010_N0.mdlx
+  - name: obj/W_EX010.mdlx
 
-#Timeless River
-- name: obj/W_EX010_N0_WI.mdlx
+
+###Kingdom Key Texture###
+- name: remastered/obj/W_EX010.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_WI.mdlx/-0.dds
   method: copy
   source:
-  - name: obj/W_EX010_N0.mdlx
+  - name: remastered/obj/W_EX010.mdlx/-0.dds
 
-#Halloween Town
-- name: obj/W_EX010_N0_NM.mdlx
+
+
+###Kingdom Key Item Pic###
+- name: remastered/itempic/item-043.imd/-0.dds
   method: copy
   source:
-  - name: obj/W_EX010_N0.mdlx
-
-#Space Paranoids
-- name: obj/W_EX010_N0_TR.mdlx
-  method: copy
-  source:
-  - name: obj/W_EX010_N0.mdlx
+  - name: remastered/itempic/item-043.imd/-0.dds
 
 
 
-###Texture###
-
-#Normal
-- name: remastered/obj/W_EX010_N0.mdlx/-0.dds
-  method: copy
-  source:
-  - name: remastered/obj/W_EX010_N0.mdlx/-0.dds
-
-#Halloween Town
-- name: remastered/obj/W_EX010_N0_NM.mdlx/-0.dds
-  method: copy
-  source:
-  - name: remastered/obj/W_EX010_N0.mdlx/-0.dds
-
-#Space Paranoids
-- name: remastered/obj/W_EX010_N0_TR.mdlx/-0.dds
-  method: copy
-  source:
-  - name: remastered/obj/W_EX010_N0.mdlx/-0.dds
-
-#Timeless River
-- name: remastered/obj/W_EX010_N0_WI.mdlx/-0.dds
-  method: copy
-  source:
-  - name: remastered/obj/W_EX010_N0.mdlx/-0.dds
-
-
-###Ultima Crown Image Effect###
-
-#Normal
-- name: remastered/obj/W_EX010_N0.a.us/-2.dds
-  method: copy
-  source:
-  - name: remastered/obj/W_EX010_N0.a.us/-2.dds
-
-#Halloween Town
-- name: remastered/obj/W_EX010_N0_NM.a.us/-2.dds
-  method: copy
-  source:
-  - name: remastered/obj/W_EX010_N0.a.us/-2.dds
-
-#Space Paranoids
-- name: remastered/obj/W_EX010_N0_TR.a.us/-2.dds
-  method: copy
-  source:
-  - name: remastered/obj/W_EX010_N0.a.us/-2.dds
-
-#Timeless River
-- name: remastered/obj/W_EX010_N0_WI.a.us/-2.dds
-  method: copy
-  source:
-  - name: remastered/obj/W_EX010_N0.a.us/-2.dds
-
-
-###Item Pic###
-
-#Ultima Item Pic
-- name: remastered/itempic/item-064.imd/-0.dds
-  method: copy
-  source:
-  - name: remastered/itempic/item-064.imd/-0.dds
-
-
-#Ultima Key Name and Description
+###Kingdom Key Name and Description###
 - name: msg/us/sys.bar
   multi:
   - name: msg/uk/sys.bar
@@ -107,3 +56,11 @@ assets:
     source:
     - name: msg/sys.yml
       language: en
+
+
+
+###Kingdom Key Sound Effects###
+- name: remastered/obj/W_EX010.a.us/se/obj/se500
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010.a.us/se/obj/se500
