@@ -17,7 +17,6 @@ assets:
   - name: obj/W_EX010_TR.mdlx
   - name: obj/W_EX010_NM.mdlx
   - name: obj/W_EX010_WI.mdlx
-  - name: 
   method: copy
   source:
   - name: obj/W_EX010.mdlx
