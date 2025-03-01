@@ -60,6 +60,10 @@ assets:
 
 ###Kingdom Key Sound Effects###
 - name: remastered/obj/W_EX010.a.us/se/obj/se500
+  multi:
+  - name: remastered/obj/W_EX010_TR.a.us/se/obj/se500
+  - name: remastered/obj/W_EX010_NM.a.us/se/obj/se500
+  - name: remastered/obj/W_EX010_WI.a.us/se/obj/se500
   method: copy
   source:
   - name: remastered/obj/W_EX010.a.us/se/obj/se500
