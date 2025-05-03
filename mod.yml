@@ -1,4 +1,4 @@
-title: guitar hero
+wtitle: guitar hero
 originalAuthor: danimalforlife
 description:  |+
   Fixes the weak and pathetic Kingdom Keyblade and replaces it with the Guitar Hero World Tour controller.
@@ -13,10 +13,16 @@ dependencies:
 assets:
 ###Kingdom Key Object###
 - name: obj/W_EX010.mdlx
+  package: kh2_first
+  method: copy
+  source:
+  - name: obj/W_EX010.mdlx
+
+- name: obj/W_EX010_TR.mdlx
   multi:
-  - name: obj/W_EX010_TR.mdlx
   - name: obj/W_EX010_NM.mdlx
   - name: obj/W_EX010_WI.mdlx
+  package: kh2_sixth
   method: copy
   source:
   - name: obj/W_EX010.mdlx
@@ -24,10 +30,16 @@ assets:
 
 ###Kingdom Key Texture###
 - name: remastered/obj/W_EX010.mdlx/-0.dds
+  package: kh2_first
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010.mdlx/-0.dds
+
+- name: remastered/obj/W_EX010_TR.mdlx/-0.dds
   multi:
-  - name: remastered/obj/W_EX010_TR.mdlx/-0.dds
   - name: remastered/obj/W_EX010_NM.mdlx/-0.dds
   - name: remastered/obj/W_EX010_WI.mdlx/-0.dds
+  package: kh2_sixth
   method: copy
   source:
   - name: remastered/obj/W_EX010.mdlx/-0.dds
@@ -36,10 +48,17 @@ assets:
 
 ###Kingdom Key Item Pic###
 - name: remastered/itempic/item-043.imd/-0.dds
+  package: kh2_fifth
   method: copy
   source:
   - name: remastered/itempic/item-043.imd/-0.dds
 
+
+###Kingdom Key Item Pic PS2###
+- name: itempic/item-043.imd
+  method: copy
+  source:
+  - name: itempic/item-043.imd
 
 
 ###Kingdom Key Name and Description###
@@ -48,6 +67,7 @@ assets:
   - name: msg/uk/sys.bar
   - name: msg/jp/sys.bar
   method: binarc
+  package: kh2_first
   source:
   - name: sys
     type: list
@@ -60,10 +80,16 @@ assets:
 
 ###Kingdom Key Sound Effects###
 - name: remastered/obj/W_EX010.a.us/se/obj/se500
+  package: kh2_first
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010.a.us/se/obj/se500
+
+- name: remastered/obj/W_EX010_TR.a.us/se/obj/se500
   multi:
-  - name: remastered/obj/W_EX010_TR.a.us/se/obj/se500
   - name: remastered/obj/W_EX010_NM.a.us/se/obj/se500
   - name: remastered/obj/W_EX010_WI.a.us/se/obj/se500
+  package: kh2_sixth
   method: copy
   source:
   - name: remastered/obj/W_EX010.a.us/se/obj/se500
